@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Go</title>
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#service-section">Services</a></li>
+                <li><a href="#about-section">About Us</a></li>
+                <li><a href="#portfolio-carousel">Portfolio</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section id="hero" class="hero">
+        <div class="hero-section" id="hero-section">
+            <div class="slide" id="slide_1">
+                <!-- <img id="image_1" src="images/beach-6292382_1280.jpg" alt="beach"  width="50px" height="20px"> -->
+                <h1>Discover Paradise</h1>
+                <h3>"Experience the most breathtaking beaches around the world."</h3>
+                <button>Explore Beaches</button>
+            </div>
+            <div class="slide" id="slide_2">
+                <!-- <img id="image_2" src="images/pexels-photo-2819633.jpeg" alt="hiking"> -->
+                <h1>Adventure Awaits</h1>
+                <h3>"Experience the most breathtaking beaches around the world."</h3>
+                <button>Start Your Adventure</button>
+            </div>
+            <div class="slide" id="slide_3">
+                <!-- <img id="image_3" src="images/pexels-photo-5594137.jpeg" alt="Excursions" width="200px"> -->
+                <h1>Urban Excursions</h1>
+                <h3>Discover the charm and excitement of the world's greatest cities</h3>
+                <button>Explore Cities</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="main">
+        
+        
+        <!-- Optional Manual Control Buttons -->
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+
+        <!-- Service Section -->
+        <div class="service-section" id="service-section">
+            <div class="service-item" id="item_1">
+                <h1>Custom Travel Packages</h1>
+                <p>We offer personalized travel packages tailored to your preferences. Whether you’re looking for a romantic getaway, a family vacation, or an adventure trip, we’ve got you covered.</p>
+            </div>
+            <div class="service-item" id="item_2">
+                <h1>Guided Tours</h1>
+                <p>Join our guided tours to explore new destinations with experienced guides. Our tours cover historical sites, natural wonders, and cultural experiences.</p>
+            </div>
+            <div class="service-item" id="item_3">
+                <h1>Accommodation Booking</h1>
+                <p>Book your stay at the best hotels, resorts, and vacation rentals. We provide a range of options to suit every budget and preference.</p>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="about-section" id="about-section">
+            <h1>About Us</h1>
+            <p>Welcome to TRAVEL GO, your ultimate travel companion. We are passionate about creating unforgettable travel experiences for our clients. Our mission is to provide top-notch travel services that cater to your unique needs and preferences. With years of experience in the travel industry, we pride ourselves on our attention to detail and customer satisfaction. Join us on a journey to explore the world and make lasting memories.</p>
+            <h3>Mission Statement</h3>
+            <p>To inspire and enable people to explore the world with ease and confidence, providing exceptional travel experiences that create lifelong memories.</p>
+        </div>
+        
+        <!-- Portfolio Carousel -->
+        <div class="portfolio-carousel" id="portfolio-carousel">
+            <div class="portfolio-slide" id="portfolio_slide_1">
+                <img src="images/pexels-kindelmedia-7148443.jpg" alt="safari adventure">
+                <h3>African Safari Adventure</h3>
+                <p>Experience the thrill of an African safari with our expert-guided tours. Witness the majestic wildlife in their natural habitat.</p>
+            </div>
+            <div class="portfolio-slide" id="portfolio_slide_2">
+                <img src="images/pexels-anastasia-shuraeva-4765103.jpg" alt="cruise">
+                <h3>Romantic Sunset Cruise</h3>
+                <p>Sail into the sunset on a luxurious cruise. Perfect for romantic getaways and special occasions.</p>
+            </div>
+            <div class="portfolio-slide" id="portfolio_slide_3">
+                <img src="images/istockphoto-1063713992-1024x1024.jpg" alt="family adventure">
+                <h3>Family Adventure in Greece</h3>
+                <p>Discover the ancient wonders of Greece with our family-friendly tours. Explore historical sites and enjoy cultural experiences.</p>
+            </div>
+            <div class="portfolio-slide" id="portfolio_slide_4">
+                <img src="images/pexels-photo-7263747.jpeg" alt="solo hiking">
+                <h3>Solo Hiking Expedition</h3>
+                <p>Challenge yourself with our solo hiking expeditions. Perfect for adventurers seeking solitude and breathtaking views.</p>
+            </div>
+            <div class="portfolio-slide" id="portfolio_slide_5">
+                <img src="images/pexels-kindelmedia-7148443.jpg" alt="city tour in Tokyo">
+                <h3>City Tour in Tokyo</h3>
+                <p>Explore the vibrant city of Tokyo with our guided city tours. Discover hidden gems and iconic landmarks.</p>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section" id="contact-section">
+            <h1>Contact Us</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div class="contact-details">
+                <h3>Contact Details</h3>
+                <p>Address: 123 Travel St, Wanderlust City, WL 45678</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@travelgo.com</p>
+            </div>
+            <div class="map">
+                <!-- You can integrate a map here using Google Maps or any other service -->
+                <p>Map will be here.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="slider.js"></script> -->
+</body>
+</html>
